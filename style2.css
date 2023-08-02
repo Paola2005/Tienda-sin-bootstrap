@@ -30,10 +30,9 @@ body {
   .navbar-menu {
     display: flex;
     list-style: none;
-    margin: 1%;
-    padding:10vh;
-    font-size: 30px;
-    background-color: #333;
+    margin: 0;
+    padding:2vh;
+    font-size: 35px;
   }
   
   .navbar-menu li {
@@ -69,7 +68,8 @@ body {
   }
   
   .tituloo{
-    font-size: 30px;
+    font-size: 40px;
+    margin: 0 0;
   }
   
   .container {
@@ -90,10 +90,12 @@ body {
   .title1{
     color: #ff702a;
     font-size: 600%;
+    margin: 0 0;
   }
   .parre{
     color: #fff;
     font-size: 200%;
+    margin: 0 0;
   
   }
   
@@ -154,6 +156,7 @@ body {
   }
   .about{
     color: #ff702a;
+    font-size: 30px;
   }
   
   .texto2 {
@@ -167,7 +170,7 @@ body {
   }
   .parafo2{
     color: #fff;
-    font-size: 100%;
+    font-size: 180%;
     
   }
   @media (max-width: 768px) {
@@ -212,24 +215,37 @@ body {
   
   hr{
     color: #ff702a;
+    size:"8";
   }
   
-  
+  #seccion3{
+    height: 100vh;
+  }
   .tilo{
     text-align: center;
     color:#ff702a;
+    font-size: 30px;
+    margin: 0 0 ;
   }
   .nos{
     text-align: center;
+    font-size: 300%;
+    margin:0 0;
   }
   .des1{
     color: black;
+    font-size: 250%;
+    margin: 0 0;
   }
   .des2{
     color: black;
+    font-size: 150%;
+    margin: 0 0;
   }
   .des3{
     color:#ff702a;
+    font-size: 100%;
+    margin: 0 0;
   }
   .grid-container1 {
     display: grid;
@@ -240,8 +256,9 @@ body {
   
   .grid-item {
     position: relative;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
+    height:100% ;
     background-color: #ffefe8;
   }
   
@@ -282,15 +299,23 @@ body {
   .titu{
     text-align: center;
     color:#ff702a;
+    font-size:30px ;
+    margin: 0 0;
   }
   .des{
     text-align: center;
+    font-size: 300%;
+    margin: 0 0;
   }
   .des4{
     color:#ff702a;
+    font-size: 250%;
+    margin: 0 0;
   }
   .des5{
     color: white;
+    font-size: 150%;
+    margin: 0 0;
   }
   
   .grid-container2 {
@@ -334,6 +359,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+  .rec{
+    font-size: 200%;
   }
   
   .rectangle {
@@ -425,6 +453,7 @@ body {
     .footer-menu {
       flex-direction: column;
       align-items: center;
+      text-align: center;
     }
     
     .footer-menu ul {
@@ -435,24 +464,24 @@ body {
   }
   
   
-  .contact-container {
+  .contactoc {
     text-align: center;
     padding: 20px;
   }
   
-  .contact-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    
+  .contacto {
+    font-size: 200%;
+    margin: 0;
+
   }
   
-  .social-media {
+  .redes{
     display: flex;
     justify-content: center;
     gap: 20px;
   }
   
-  .social-icon {
+  .social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -461,17 +490,24 @@ body {
     border-radius: 50%;
   }
   
-  .social-icon img {
+  .social img {
     width: 50%;
     height: 50%;
   }
-  .social-icon{
+  .social{
     background-color: #ff702a;
   }
+  .titulosmen{
+    font-size: 200%;
+    position: relative;
+    margin-bottom: 1em;
+  }
+
   
-  .nose{
-    width:50%;
+  .line {
+      width: 50%;
+      height: 2px;
+      background-color:#ff702a;
   }
-  .nosi{
-    width: 25%;
-  }
+
+  
