@@ -6,9 +6,7 @@ body {
     line-height: 1.6;
     color: #ffffff;
     background-color: #1e1d2b;
-    
   }
-  
   .navbar {
     background-color:#1e1d2b;
     color: #fbfbfb;
@@ -49,23 +47,15 @@ body {
   
   
   
-  @media screen and (max-width: 768px) {
-    .navbar-menu,.navbar-header,.fo{
-      display: flex; 
-      flex-direction: column;
-      align-items: center;
-      }
-      
-    }
-  
-  
+    
+    
   .fo{
       display: flex;
       color:#ff702a;
       justify-content: space-between;
       margin: auto;
       padding: auto;
-  }
+    }
   
   .tituloo{
     font-size: 40px;
@@ -96,20 +86,9 @@ body {
     color: #fff;
     font-size: 200%;
     margin: 0 0;
-  
-  }
-  
-  @media (max-width: 768px) {
-    .container{
-      flex-direction: column;
-      height: auto;
-    }
     
-    .texto {
-      width: 100%;
-      text-align: center;
-    }
   }
+  
   
   
   .boton {
@@ -135,12 +114,6 @@ body {
   img {
     max-width: 100%; 
     max-height: 100%; 
-  }
-  @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column; 
-      text-align: center; 
-    }
   }
   
   
@@ -173,16 +146,6 @@ body {
     font-size: 180%;
     
   }
-  @media (max-width: 768px) {
-    .container2 {
-      flex-direction: column;
-    }
-    
-    .texto2 {
-      width: 100%;
-      text-align: center;
-    }
-  }
   .custom-button2 {
     padding: 10px 20px;
     font-size: 16px;
@@ -204,13 +167,6 @@ body {
   img {
     max-width: 100%; 
     max-height: 100%; 
-  }
-  @media screen and (max-width: 768px) {
-    .container2 {
-      flex-direction:column-reverse; 
-      align-items: flex-end;
-      height: auto;
-    }
   }
   
   hr{
@@ -281,15 +237,9 @@ body {
     background-color: #ec4808;
     font-size: 30px;
     border-radius: 0 0.5rem 0 0.5rem;
-  
+    
   }
   
-  @media screen and (max-width: 768px) {
-    .grid-container1 {
-      grid-template-columns: 1fr; 
-      height: auto;
-    }
-  }
   
   
   
@@ -345,12 +295,6 @@ body {
   }
   
   
-  @media screen and (max-width: 768px) {
-    .grid-container2 {
-      grid-template-columns: 1fr; 
-      height: auto;
-    }
-  }
   
   
   
@@ -391,13 +335,6 @@ body {
     cursor: pointer;
   }
   
-  @media screen and (max-width: 768px) {
-    .rectangle {
-      width: 100%;
-      text-align: center; 
-      height: auto;
-    }
-  }
   
   
   
@@ -449,18 +386,6 @@ body {
   }
   
   
-  @media screen and (max-width: 768px) {
-    .footer-menu {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .footer-menu ul {
-      margin-bottom: 10px;
-      height: auto;
-    }
-  }
   
   
   .contactoc {
@@ -471,7 +396,7 @@ body {
   .contacto {
     font-size: 200%;
     margin: 0;
-
+    
   }
   
   .redes{
@@ -501,15 +426,74 @@ body {
     position: relative;
     margin-bottom: 1em;
   }
-
+  
   
   .line {
-      width: 50%;
-      height: 2px;
-      background-color:#ff702a;
+    width: 50%;
+    height: 2px;
+    background-color:#ff702a;
   }
   .lineprin{
     width: 100%;
-      height: 2px;
-      background-color:#ff702a;
+    height: 2px;
+    background-color:#ff702a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu,.navbar-header,.fo{
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-menu {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer-menu ul {
+      margin-bottom: 10px;
+      height: auto;
+    }
+    .rectangle {
+      width: 100%;
+      text-align: center; 
+      height: auto;
+    }
+    .grid-container2 {
+      grid-template-columns: 1fr; 
+      height: auto;
+    }
+    .grid-container1 {
+      grid-template-columns: 1fr; 
+      height: auto;
+    }
+    .container2 {
+      flex-direction: column;
+    }
+    .container2 {
+      flex-direction:column-reverse; 
+      align-items: flex-end;
+      height: auto;
+    }
+    .texto2 {
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      flex-direction: column; 
+      text-align: center; 
+    }
+    .container{
+      flex-direction: column;
+      height: auto;
+    }
+    .texto {
+      width: 100%;
+      text-align: center;
+    }
+    .parafo2{
+      font-size: 130%;
+    }
   }
